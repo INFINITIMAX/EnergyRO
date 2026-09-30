@@ -1,0 +1,112 @@
+{
+  "title": "EnergyRO — direcția vizuală",
+  "question": "Alege experiența dashboard-ului. Culorile sunt propuneri, nu un design deja implementat. Datele prototipului vor fi marcate DEMO.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Masa de analiză",
+      "thesis": "Prognoza și dovezile stau alături, fără să ascundem incertitudinea.",
+      "palette": ["#F4F6F8", "#162B42", "#176B78", "#A84D12"],
+      "materials": ["suprafețe mate", "grafice aliniate", "jurnal de emiteri"],
+      "viewport": "Un grafic mare ocupă două treimi din pagină; în dreapta, emisia selectată și explicațiile. Sus: patru pagini și avertizarea DEMO.",
+      "risk": "Poate părea prea sobru dacă ierarhia și interacțiunile sunt tratate timid.",
+      "raised": [
+        {"from": "Arhiva de cutii", "raise": "Fiecare emitere are identitate completă și acces direct, nu o listă anonimă de fișiere."},
+        {"from": "Tensegritate", "raise": "Selectarea unei ore evidențiază simultan valorile și abaterea în toate comparațiile compatibile."},
+        {"from": "Grila Crouwel", "raise": "Graficele și tabelul împart aceeași structură de aliniere, păstrând comparația precisă."},
+        {"from": "Catod", "raise": "Emisia activă, datele absente și cele vechi au stări distincte, fără a suprapune texte."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Buletin sinoptic",
+      "thesis": "Un buletin energetic lizibil, cu timp, prognoză și explicații în centrul experienței.",
+      "palette": ["#F5FAFC", "#133B50", "#006D77", "#A44914"],
+      "materials": ["legendă de buletin meteo", "axă temporală", "linii diferențiate"],
+      "viewport": "Graficul consumului domină pagina; dedesubt, contextul meteo și diferențele față de referințe. Navigarea este compactă.",
+      "risk": "Este familiar pentru produse energie/meteo; diferențierea trebuie câștigată prin execuție și transparență."
+    },
+    {
+      "id": "digital-design-canon-warm-consumer-app-surface",
+      "label": "Energie pe înțelesul tuturor",
+      "verdict": "competitive",
+      "thesis": "Comparații explicate în limbaj simplu și controale confortabile pe telefon.",
+      "palette": ["#F2EEE8", "#FFFFFF", "#26352E", "#176C4B"],
+      "materials": ["suprafețe moi", "spațiere generoasă", "accent pe acțiuni"],
+      "viewport": "Prognoza ca suprafață largă, urmată de explicații; pe telefon, navigare la îndemâna degetului și legendă explicită.",
+      "case": "Crește claritatea pentru publicul nespecialist, dar se identifică mai puțin cu analiza tehnică; rămâne alternativă completă.",
+      "risk": "Poate dilua densitatea analitică dacă fiecare valoare primește propriul card."
+    },
+    {
+      "id": "signals-instruments-split-flap-concourse",
+      "label": "Tabloul emiterilor",
+      "verdict": "competitive",
+      "thesis": "Ziua țintă și momentul emiterii organizează fiecare comparație.",
+      "palette": ["#182027", "#F4F5F5", "#BFC9CF", "#F2BA57"],
+      "materials": ["rânduri temporale", "coloane fixe", "contrast de panou informativ"],
+      "viewport": "Emiterile sunt rânduri selectabile; graficul și rezultatele se sincronizează cu selecția. Pe telefon, coloanele sunt prioritizate.",
+      "case": "Cronologia face emiterile clare, dar identificarea cu analiza energetică este mai slabă; rămâne o alternativă.",
+      "risk": "Estetica retro poate distrage; nu simulăm actualizări live sau animații inutile."
+    },
+    {
+      "id": "textiles-weave-drape-fashion-sneaker-box-stacks",
+      "label": "Arhiva emiterilor",
+      "verdict": "declined",
+      "thesis": "Fiecare prognoză este un obiect arhivat cu etichetă și versiune.",
+      "palette": ["#BA4D22", "#FFF8F0", "#231D19"],
+      "materials": ["etichete de arhivă", "stive indexate"],
+      "viewport": "Emiterile se explorează ca o arhivă; selectarea uneia deschide comparația.",
+      "case": "Arhiva este utilă, dar forma de obiecte în stivă pierde pe identificare și pe claritatea comparației simultane.",
+      "kept": "Identitatea completă și accesul direct la fiecare emitere.",
+      "risk": "Metafora de cutii domină datele și încetinește comparațiile."
+    },
+    {
+      "id": "kinetic-sculpture-automata-tensegrity-breathing-column",
+      "label": "Rețeaua abaterilor",
+      "verdict": "declined",
+      "thesis": "Valorile și abaterile sunt legate într-o structură de comparație.",
+      "palette": ["#EDF0F1", "#20262C", "#AD312A"],
+      "materials": ["noduri de comparație", "relații explicite"],
+      "viewport": "Selecția unei ore dezvăluie model, referință și abatere în noduri corelate.",
+      "case": "Structura relațională pierde pe identificare și pe claritate față de un grafic temporal; nu sugerează relații cauzale nedovedite.",
+      "kept": "Selecție sincronizată între dovezi compatibile.",
+      "risk": "Diagrama poate sugera cauzalitate sau modelarea fizică a rețelei, funcționalități inexistente."
+    },
+    {
+      "id": "crouwel-grid-specimen",
+      "label": "Grila de măsurare",
+      "verdict": "declined",
+      "thesis": "Comparațiile se aliniază într-o grilă vizibilă și riguros construită.",
+      "palette": ["#FFFFFF", "#192C45", "#BBD0E4", "#175AA1"],
+      "materials": ["grilă de construcție", "tipografie modulară"],
+      "viewport": "Titlul și valorile împart celule cu graficele și tabelul comparativ.",
+      "case": "Tipografia monumentală și grila vizibilă pierd pe identificare și lizibilitate analitică; păstrăm disciplina, nu costumul.",
+      "kept": "Alinierea coerentă a graficelor și tabelelor.",
+      "risk": "Construcția vizuală poate concura cu datele."
+    },
+    {
+      "id": "operate-b-struck-cathode-gauze",
+      "label": "Panoul nocturn",
+      "verdict": "declined",
+      "thesis": "Emisia activă este evidențiată, iar stările vechi sunt distincte.",
+      "palette": ["#111E2C", "#F1ECE0", "#EA862F"],
+      "materials": ["plan continuu", "accent portocaliu", "stări de disponibilitate"],
+      "viewport": "O axă continuă și controale fără rame, cu selecția curentă evidențiată.",
+      "case": "Valorile suprapuse și atmosfera nocturnă pierd pe identificare și claritate în scena de utilizare la birou.",
+      "kept": "Stări active, absente și vechi explicit diferențiate.",
+      "risk": "Textul fantomă și strălucirea ar reduce contrastul și precizia lecturii."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "Dashboard clasic",
+    "thesis": "Interfață analitică familiară, executată atent.",
+    "palette": ["#F7F9FC", "#15243B", "#245DB5"],
+    "materials": ["navigare laterală", "panouri de grafice", "controale standard"],
+    "viewport": "Navigare laterală, selecții sus, grafic principal și tabel de rezultate dedesubt.",
+    "risk": "Mai puțină identitate distinctă față de alte dashboard-uri."
+  },
+  "steer": true
+}

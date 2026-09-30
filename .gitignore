@@ -1,0 +1,30 @@
+# Local dependencies, builds and runtime artifacts
+node_modules/
+dist/
+.npm-cache/
+.pi/
+.pi-runtime/
+.pi-sessions/
+/docs/agent-runs/
+**/session.jsonl
+.impeccable/
+.playwright-cli/
+.playwright/
+test-results/
+playwright-report/
+coverage/
+*.log
+*.pid
+*.tmp
+# Credentials and local environments
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+.venv/
+venv/
+__pycache__/
+# Third-party reference and raw samples pending redistribution review
+/docs/evidence/nimbus-reference.png
+/docs/evidence/open-meteo-*-sample.json
